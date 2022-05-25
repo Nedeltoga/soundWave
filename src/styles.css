@@ -1,0 +1,11 @@
+body{
+    background-color: #2F303A;
+}
+
+.Circle {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.blank{color: white !important;}

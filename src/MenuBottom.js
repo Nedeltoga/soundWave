@@ -9,8 +9,8 @@ function MenuBottom () {
         <Container>
         <Navbar.Toggle />
           <Navbar.Collapse >
-          <Nav.Link className="bottom-left" href="#home">About us</Nav.Link>
-          <Nav.Link className="bottom-left" href="#features">Contact</Nav.Link>
+          <Nav.Link className="bottom-left blank" href="#home">About us</Nav.Link>
+          <Nav.Link className="bottom-left blank" href="#features">Contact</Nav.Link>
           </Navbar.Collapse>
         <Navbar.Brand href="#home" className="justify-content-end">
         <img
