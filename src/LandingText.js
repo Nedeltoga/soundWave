@@ -1,11 +1,12 @@
+import Button from 'react-bootstrap/Button'
+
 function LandingText (){
-    return
-    <div>
-    <h1>Feel The Music</h1>
-    <h2>Stream over 20 thousand songs with one clic</h2>
-    <btn>
-        
-    </btn>
-    </div>
+    return (    
+        <div>
+            <h1>Feel The Music</h1>
+            <p>Stream over 20 thousand songs with one click</p>
+            <Button variant="primary" href="#">Join Now</Button>{' '}
+        </div>)
+
 }
 export default LandingText

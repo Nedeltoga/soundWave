@@ -5,18 +5,25 @@ import MenuBottom from './MenuBottom'
 import Circle from './Circle'
 import LandpageImg from './LandpageImg'
 import LandingText from './LandingText'
+import { Col, Container, Row } from 'react-bootstrap';
 
 function App() {
   return (
 
-    <div className='App'>
+    <div className='App vh-100'>
       
       <Menu />
       <Circle background='#bc3a801a'/>
       <Circle background='#3457b21a'/>
       <Circle background='#3457b21a'/>
-      <LandingText />
-      <LandpageImg />
+      <Container className='h-100 d-flex' fluid>
+        <Row className='flex-grow-1 d-flex d-flex align-items-center justify-content-center' >
+          <Col md={{ span: 3, offset: 1 }} ><LandpageImg /></Col>
+          <Col md={{ span: 4, offset: 1 }} ><LandingText /></Col>
+        </Row>
+       </Container>
+      
+      
       <MenuBottom />
     </div>
   );
