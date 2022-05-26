@@ -1,7 +1,9 @@
+import Joinstyles from './Joinstyles.css'
+
 function Join (){
     return (
         <div>
-            <h1>Join the fun.</h1>
+            <h1 bold>Join the <h1 className="result">fun.</h1></h1>
         </div>
     )
 }

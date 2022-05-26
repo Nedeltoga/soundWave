@@ -19,13 +19,13 @@ function App() {
       <Circle background='#3457b21a'/>
       <Circle background='#3457b21a'/>
       <Container className='h-100 d-flex land' fluid>
-        <Row className='flex-grow-1 d-flex d-flex align-items-center justify-content-center' >
+        <Row className='flex-grow-1 d-flex align-items-center justify-content-center' >
           <Col md={{ span: 3, offset: 1 }} ><LandpageImg /></Col>
           <Col md={{ span: 4, offset: 1 }} ><LandingText /></Col>
         </Row>
        </Container>
        <Container className='h-100 d-flex Join' fluid>
-        <Row className='flex-grow-1 d-flex d-flex align-items-center justify-content-center' >
+        <Row className='flex-grow-1 d-flex align-items-center justify-content-center' >
           <Col md={{ span: 3, offset: 1 }} ><Join /></Col>
           <Col md={{ span: 4, offset: 1 }} ><FormJoin /></Col>
         </Row>
