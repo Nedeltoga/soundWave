@@ -1,3 +1,9 @@
+.card {
+    display: flex;
+    align-items: center;
+    margin: 5%;
+}
 .card-img {
-    width: 3vw;
+    width: 40%;
+    padding-top: 15%;
 }

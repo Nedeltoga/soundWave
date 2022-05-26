@@ -9,7 +9,7 @@ function DiscoverText () {
         <h1>Discover new music</h1>
         <CardGroup >
             <Card bg='dark'>
-                <Card.Img src={process.env.PUBLIC_URL + '/images/microphone.svg'} alt='Microphone icon' />
+                <Card.Img className='mx-auto d-block' src={process.env.PUBLIC_URL + '/images/microphone.svg'} alt='Microphone icon' />
                 <Card.Body>
                 <Card.Title>Charts</Card.Title>
                 </Card.Body>
