@@ -26,10 +26,10 @@ function App() {
           <Col md={{ span: 4, offset: 1 }} ><LandingText /></Col>
         </Row>
       </Container>
-      <Container className='discover h-100 d-flex land' fluid>
-        <Row>
-          <Col><DiscoverText /></Col>
-          <Col><DiscoverImg /></Col>
+      <Container className='h-100 d-flex discover' fluid>
+        <Row className='flex-grow-1 d-flex align-items-center justify-content-center'>
+          <Col md={{ span: 4 }}><DiscoverText /></Col>
+          <Col md={{ span: 3, offset: 1 }}><DiscoverImg /></Col>
         </Row>
        </Container>
        <Container className='h-100 d-flex Join' fluid>

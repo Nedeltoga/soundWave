@@ -1,41 +1,29 @@
 import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
+import DiscoverTextstyles from './DiscoverTextstyles.css'
 
 function DiscoverText () {
     return (
-        <section>
+        <section >
 
         <h1>Discover new music</h1>
         <CardGroup >
             <Card bg='dark'>
-                <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/microphone.svg'} />
+                <Card.Img src={process.env.PUBLIC_URL + '/images/microphone.svg'} alt='Microphone icon' />
                 <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.
-                </Card.Text>
+                <Card.Title>Charts</Card.Title>
                 </Card.Body>
             </Card>
             <Card bg='dark'>
-                <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/albums.svg'} />
+                <Card.Img src={process.env.PUBLIC_URL + '/images/albums.svg'} alt='Three albums icon' />
                 <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                    This card has supporting text below as a natural lead-in to additional
-                    content.{' '}
-                </Card.Text>
+                <Card.Title>Albums</Card.Title>
                 </Card.Body>
             </Card>
             <Card bg='dark'>
-                <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/more.svg'} />
+                <Card.Img src={process.env.PUBLIC_URL + '/images/more.svg'} alt='Right arrow icon' />
                 <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This card has even longer content than the first to
-                    show that equal height action.
-                </Card.Text>
+                <Card.Title>More</Card.Title>
                 </Card.Body>
             </Card>
             </CardGroup>
