@@ -7,7 +7,7 @@ function Menu () {
     return (
       <Navbar fixed="top" >
         <Container >
-        <Navbar.Brand href="#home" className="blank">
+        <Navbar.Brand href="#landId" className="blank">
         <img
           alt="Soundwave logo"
           src={process.env.PUBLIC_URL + '/images/logo.png'}
@@ -19,8 +19,8 @@ function Menu () {
       </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
-          <Nav.Link href="#home" className="blank">Discover</Nav.Link>
-          <Nav.Link href="#features" className="blank">Join</Nav.Link>
+          <Nav.Link href="#discoverId" className="blank">Discover</Nav.Link>
+          <Nav.Link href="#joinId" className="blank">Join</Nav.Link>
           </Navbar.Collapse>
         </Container>
       </Navbar>
