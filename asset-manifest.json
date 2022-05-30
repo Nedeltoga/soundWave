@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Nedeltoga/soundWave.git/static/css/main.125c13d3.css",
-    "main.js": "/Nedeltoga/soundWave.git/static/js/main.09787590.js",
-    "index.html": "/Nedeltoga/soundWave.git/index.html",
-    "main.125c13d3.css.map": "/Nedeltoga/soundWave.git/static/css/main.125c13d3.css.map",
-    "main.09787590.js.map": "/Nedeltoga/soundWave.git/static/js/main.09787590.js.map"
+    "main.css": "/Nedeltoga/soundWave/gh-pages/static/css/main.125c13d3.css",
+    "main.js": "/Nedeltoga/soundWave/gh-pages/static/js/main.0c5726a8.js",
+    "index.html": "/Nedeltoga/soundWave/gh-pages/index.html",
+    "main.125c13d3.css.map": "/Nedeltoga/soundWave/gh-pages/static/css/main.125c13d3.css.map",
+    "main.0c5726a8.js.map": "/Nedeltoga/soundWave/gh-pages/static/js/main.0c5726a8.js.map"
   },
   "entrypoints": [
     "static/css/main.125c13d3.css",
-    "static/js/main.09787590.js"
+    "static/js/main.0c5726a8.js"
   ]
 }
