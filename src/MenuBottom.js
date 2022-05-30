@@ -5,7 +5,7 @@ import { Navbar } from "react-bootstrap"
 
 function MenuBottom () {
     return (
-      <Navbar variant="dark" bg="dark" fixed="bottom">
+      <Navbar variant="dark" bg="dark" fixed="bottom" className='hidden'>
         <Container>
         <Navbar.Toggle />
           <Navbar.Collapse >

@@ -18,3 +18,9 @@
 #rose {
     margin-top: 18vw;
 }
+
+@media (max-width: 750px) {
+    .containerCirclesTop{
+        visibility: hidden;
+        }
+}

@@ -19,8 +19,14 @@ function Menu () {
       </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
+            <Nav.Item>
           <Nav.Link href="#discoverId" className="blank">Discover</Nav.Link>
-          <Nav.Link href="#joinId" className="blank">Join</Nav.Link>
+
+            </Nav.Item>
+            <Nav.Item>
+            <Nav.Link href="#joinId" className="blank">Join</Nav.Link>
+            </Nav.Item>
+          
           </Navbar.Collapse>
         </Container>
       </Navbar>

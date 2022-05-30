@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import "./styles.css"
 import Menu from './Menu';
 import MenuBottom from './MenuBottom'
@@ -12,14 +12,33 @@ import DiscoverText from './DiscoverText';
 import DiscoverImg from './DiscoverImg'
 
 function App() {
+  const [isVisible, setIsVisible] = useState(false);
+  const [height, setHeight] = useState(0)
+  
+  useEffect(() => {   
+    window.addEventListener("scroll", listenToScroll);
+    return () => 
+       window.removeEventListener("scroll", listenToScroll); 
+  }, [])
+  
+  const listenToScroll = () => {
+    let heightToShowFrom = 200;
+    const winScroll = document.body.scrollTop || 
+        document.documentElement.scrollTop;
+    setHeight(winScroll);
+  
+    if (winScroll < heightToShowFrom && isVisible) {  
+         setIsVisible(false);
+    } else {
+         setIsVisible(true);
+    }  
+  };
+
   return (
-
     <div className='App vh-100'>
-      
       <Menu />
-
       <Container >
-        <Row >
+        <Row className='containerCirclesTop'>
           <Col md={{span: 3, offset: 1}}><Circle className='twoCircles' id='rose' background='#b63d8715'/></Col>
           <Col md={{span: 3}}><Circle className='twoCircles' id='blue' background='#7396e715'/></Col>
           <Col md={{offset: 1, span: 3, offset: 1}}><Circle className='blueCircle' background='#7396e715'/></Col>
@@ -43,8 +62,7 @@ function App() {
           <Col md={{ span: 4}} ><FormJoin /></Col>
         </Row>
        </Container>
-
-      <MenuBottom />
+      {isVisible && <MenuBottom />}
     </div>
   );
 }
