@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.js": "/Nedeltoga/soundWave.git/static/js/main.31d6cfe0.js",
-    "index.html": "/Nedeltoga/soundWave.git/index.html"
+    "main.css": "/Nedeltoga/soundWave.git/static/css/main.125c13d3.css",
+    "main.js": "/Nedeltoga/soundWave.git/static/js/main.09787590.js",
+    "index.html": "/Nedeltoga/soundWave.git/index.html",
+    "main.125c13d3.css.map": "/Nedeltoga/soundWave.git/static/css/main.125c13d3.css.map",
+    "main.09787590.js.map": "/Nedeltoga/soundWave.git/static/js/main.09787590.js.map"
   },
   "entrypoints": [
-    "static/js/main.31d6cfe0.js"
+    "static/css/main.125c13d3.css",
+    "static/js/main.09787590.js"
   ]
 }
