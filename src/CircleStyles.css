@@ -1,0 +1,20 @@
+
+.twoCircles{
+    width: 20rem;
+    height: 20rem;
+
+}
+
+.blueCircle {
+    width: 40rem;
+    height: 40rem;
+    margin-top: 25vw;
+}
+
+#blue {
+    margin-top: 5vw;
+}
+
+#rose {
+    margin-top: 18vw;
+}
