@@ -3,3 +3,11 @@
 .result {
  color: #CC3F8A;
 }
+
+@media (max-width: 750px) {
+    .Join{
+        margin-left: 50px;
+    
+    }
+
+}

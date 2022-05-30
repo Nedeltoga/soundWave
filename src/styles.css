@@ -14,21 +14,18 @@ body{
 }
 .blank{color: white !important;}
 
-/*
-.land {
-    height: 30vh;
-    position: relative;
-    border: 3px solid green;
+
+@media (max-width: 750px) {
+  #landImage {
+    display: none;
   }
-  
-  .vertical-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+  .textLandingText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    margin-left: 40px;
   }
-  land vertical-center
-*/
- 
+}
+
   

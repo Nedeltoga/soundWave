@@ -7,7 +7,7 @@ function DiscoverText () {
         <section >
 
         <h1>Discover new music</h1>
-        <CardGroup >
+        <CardGroup className='cardDiscover' tyle={{ width: "18rem"}}>
             <Card bg='dark'>
                 <Card.Img className='mx-auto d-block' src={process.env.PUBLIC_URL + '/images/microphone.svg'} alt='Microphone icon' />
                 <Card.Body>

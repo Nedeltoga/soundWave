@@ -23,13 +23,14 @@ function App() {
       <Container className='h-100 d-flex land' id='landId' fluid>
         <Row className='flex-grow-1 d-flex align-items-center justify-content-center' >
           <Col md={{ span: 3, offset: 1 }} ><LandpageImg /></Col>
+
           <Col md={{ span: 4, offset: 1 }} ><LandingText /></Col>
         </Row>
       </Container>
       <Container className='h-100 d-flex discover' id='discoverId' fluid>
         <Row className='flex-grow-1 d-flex align-items-center justify-content-center'>
           <Col md={{ span: 4 }}><DiscoverText /></Col>
-          <Col md={{ span: 3, offset: 1 }}><DiscoverImg /></Col>
+            <Col className='colDiscoverImg' md={{ span: 3, offset: 1 }} ><DiscoverImg /></Col>
         </Row>
        </Container>
        <Container className='h-100 d-flex Join' id='joinId' fluid>

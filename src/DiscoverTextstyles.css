@@ -7,3 +7,14 @@
     width: 40%;
     padding-top: 15%;
 }
+
+@media (max-width: 750px) {
+
+    .discover{
+        margin-left: 20px;
+    } 
+
+    .cardDiscover{
+        display: flex;
+    }
+}

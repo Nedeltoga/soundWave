@@ -1,3 +1,5 @@
+import DiscoverImgStyles from './DiscoverImgStyles.css'
+
 function DiscoverImg() {
     return <img
     alt="A four pictures collage"
