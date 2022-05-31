@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/soundWave/static/css/main.125c13d3.css",
+    "main.css": "/soundWave/static/css/main.15ec4124.css",
     "main.js": "/soundWave/static/js/main.05f7c52c.js",
     "index.html": "/soundWave/index.html",
-    "main.125c13d3.css.map": "/soundWave/static/css/main.125c13d3.css.map",
+    "main.15ec4124.css.map": "/soundWave/static/css/main.15ec4124.css.map",
     "main.05f7c52c.js.map": "/soundWave/static/js/main.05f7c52c.js.map"
   },
   "entrypoints": [
-    "static/css/main.125c13d3.css",
+    "static/css/main.15ec4124.css",
     "static/js/main.05f7c52c.js"
   ]
 }
