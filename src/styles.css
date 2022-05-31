@@ -29,3 +29,9 @@ body{
     margin-left: 40px;
   }
 }
+
+@media (max-width: 757px) {
+  body{
+    font-size: 0.7rem;
+  }
+}
